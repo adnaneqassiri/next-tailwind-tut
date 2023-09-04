@@ -83,7 +83,7 @@ export default function Home() {
                     </h3>
                     <p className="text-md leading-6 text-gray-800 dark:text-gray-400">
                         since the beginning of my journey as a freelancer and
-                        developer, i've done remote work for
+                        developer, i have done remote work for
                         <span className="text-teal-500"> agencies </span>
                         consulted for{" "}
                         <span className="text-teal-500">startups </span>
@@ -98,6 +98,7 @@ export default function Home() {
                 <div className="md:flex gap-10">
                     <div className="text-center shadow-lg rounded-md mt-5 p-10 flex-1 dark:bg-white">
                         <Image
+                            alt=""
                             className="m-auto"
                             src={design}
                             width={100}
@@ -130,8 +131,8 @@ export default function Home() {
                             Code your dream project.
                         </h3>
                         <p className="py-3">
-                            Do you have an idea for your next great website?
-                            Let's make it a reality.
+                            Do you have an idea for your next great website? Let
+                            s make it a reality.
                         </p>
                         <h4 className="py-3 text-teal-600">
                             Design tools i use{" "}
@@ -144,6 +145,7 @@ export default function Home() {
                     </div>
                     <div className="text-center shadow-lg rounded-md mt-5 p-10 flex-1 dark:bg-white">
                         <Image
+                            alt=""
                             className="m-auto"
                             src={consulting}
                             width={100}
@@ -175,7 +177,7 @@ export default function Home() {
                     </h3>
                     <p className="text-md leading-6 text-gray-800 dark:text-gray-400">
                         since the beginning of my journey as a freelancer and
-                        developer, i've done remote work for
+                        developer, i have done remote work for
                         <span className="text-teal-500"> agencies </span>
                         consulted for{" "}
                         <span className="text-teal-500">startups </span>
